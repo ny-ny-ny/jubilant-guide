@@ -30,4 +30,10 @@ button {
   background: white;
 }
 
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2列 */
+  gap: 12px 16px; /* 縦 横 */
+}
+
 /* ボタンをまとめて横並びにしたいならコンテナを作るのが定石 */
