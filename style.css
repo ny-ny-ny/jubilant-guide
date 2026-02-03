@@ -1,0 +1,33 @@
+/* 画面全体の基本 */
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* 中央寄せの縦レイアウト */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;     /* 横方向中央 */
+  justify-content: center; /* 縦方向中央 */
+}
+
+/* 数字を目立たせる */
+#count {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+/* ボタンを横並び */
+button {
+  font-size: 18px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+/* ボタンをまとめて横並びにしたいならコンテナを作るのが定石 */
